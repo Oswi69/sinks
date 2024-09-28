@@ -3,6 +3,8 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: aliceblue;
+    position: flex;
 }
 
 h1 {
@@ -21,15 +23,64 @@ li {
 
 p {
     margin: 0;
-    padding: 0;
-}
-
-img {
-    width: 100%;
-    height: auto;
+    padding: 5px;
 }
 
 table {
     width: 100%;
     border-collapse: collapse;
+
 }
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.navigation {
+    width: 10%;
+    background-color:#42526E;
+}
+
+.navlist {
+    position: sticky;
+    top: 0;
+    margin-top: 10px;
+}
+
+li {
+    padding: 5px;
+    color: black;
+}
+
+.header {
+    background-color: #6288a6;
+    border-bottom: solid white;
+    color: white;
+}
+
+.sinks2024 {
+    background-color: #6288a6;
+    padding: 4px;
+    color: white;
+}
+
+
+h2 {
+    font-size:xx-large;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #152238;
+}
+
+img {
+    border: 3px solid #6288a6;
+    width: 1320px;
+    height: 800px;
+}
+
+.last {
+    padding: 0;
+}
+
